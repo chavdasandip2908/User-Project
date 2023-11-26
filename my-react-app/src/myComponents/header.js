@@ -1,6 +1,6 @@
 import React, { useState, useSyncExternalStore } from 'react';
 import './Header.css';
-
+// import 'bootstrap/dist/css/bootstrap.css';
 
 const handleClick = () => {
     // var element = document.getElementById("navbtn");
@@ -36,8 +36,7 @@ export default function header() {
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                {/* <button >Click me</button> */}
             </nav>
-        </>
+            </>
     )
 }
